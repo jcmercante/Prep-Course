@@ -70,7 +70,7 @@ function tienenMismaLongitud(str1, str2) {
   if (str1.length === str2.length) {
     return true;
   }
-  return false;
+    return false;
 }
 
 function menosQueNoventa(num) {
@@ -80,7 +80,7 @@ function menosQueNoventa(num) {
   if (num < 90){
     return true
   }
-  return false
+    return false
 }
 
 function mayorQueCincuenta(num) {
@@ -90,7 +90,7 @@ function mayorQueCincuenta(num) {
   if (num > 50){
     return true
   }
-  return false
+    return false
 }
 
 function obtenerResto(x, y) {
@@ -106,7 +106,7 @@ function esPar(num) {
   if (num % 2 == 0){
     return true
   }
-  return false
+    return false
 }
 
 function esImpar(num) {
@@ -116,7 +116,7 @@ function esImpar(num) {
   if (num % 2 == 0){
     return false
   }
-  return true
+    return true
 }
 
 function elevarAlCuadrado(num) {
@@ -164,9 +164,9 @@ function esPositivo(numero) {
   if (numero > 0){
     return 'Es positivo'
   } else if (numero < 0){
-    return 'Es negativo'
-  } else (numero == 0)
-  return false
+      return 'Es negativo'
+  }   else (numero == 0)
+        return false
 }
 
 function agregarSimboloExclamacion(str) {
